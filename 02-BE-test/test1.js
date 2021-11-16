@@ -64,7 +64,9 @@ const sessions = [
 
 function result(sessions) {
   // Your Code Here
-  
+    for(let i = 0; i < sessions.length; i++) {
+       return sessions[2];
+    }
 }
 
 console.log(result(sessions));
